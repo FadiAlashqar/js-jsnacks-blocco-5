@@ -21,3 +21,13 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+let marcosClass;
+
+students.forEach((item) => {
+  if (item.class === '3C') {
+    marcosClass = item.class;
+  }
+})
+
+console.log(marcosClass);
